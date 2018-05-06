@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(katz_deli) 
   if katz_deli.size == 0 
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else 
     sentence = "The line is currently: "
     counter = 1
@@ -10,6 +10,6 @@ def line(katz_deli)
       sentence += "#{counter}. person " 
       counter += 1 
     end
-    return sentence 
+    puts sentence 
   end 
 end 
